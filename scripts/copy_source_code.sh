@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the source and destination directories
-SOURCE_DIR="/cyberman/services/"
+SOURCE_DIR="/cyberman24/services/"
 DEST_DIR="../src"
 
 # Get the absolute path of the destination directory

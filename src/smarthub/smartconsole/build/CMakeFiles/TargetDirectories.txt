@@ -1,0 +1,6 @@
+/cyberman24/services/smarthub/smartconsole/build/CMakeFiles/rebuild_cache.dir
+/cyberman24/services/smarthub/smartconsole/build/CMakeFiles/edit_cache.dir
+/cyberman24/services/smarthub/smartconsole/build/src/CMakeFiles/rebuild_cache.dir
+/cyberman24/services/smarthub/smartconsole/build/src/CMakeFiles/edit_cache.dir
+/cyberman24/services/smarthub/smartconsole/build/src/CMakeFiles/run.dir
+/cyberman24/services/smarthub/smartconsole/build/src/CMakeFiles/dvsa.dir

@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    {% block head %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>{% block title %}Dashboard{% endblock %}</title>
+    {% endblock %}
+  </head>
+  <body>
+    <h1>SmartHub Public Dashboard</h1>
+    {% block content %}{% endblock %}
+
+    {% block scripts %}{% endblock %}
+    <div id="footer">
+      {% block footer %}
+      <!-- <a href="https://www.freepik.com/free-vector/global-network-icon_4559772.htm#fromView=search&page=1&position=9&uuid=c69b5555-af78-4248-ab82-8babc2a89f00">Image by macrovector_official on Freepik</a> -->
+      {% endblock %}
+    </div>
+  </body>
+</html>

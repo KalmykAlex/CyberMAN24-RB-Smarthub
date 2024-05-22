@@ -1,0 +1,52 @@
+body {
+        background-image: url('/static/background.svg');
+    background-size: cover;
+    background-position: center;
+}
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+table {  
+    font-family:sans-serif;
+    width: 80%;
+    max-width: 800px; 
+    font-family: Arial, sans-serif;
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+    overflow: hidden; 
+    th, td {
+        padding:.25em .5em;
+        text-align:left;
+        &:nth-child(2) {
+            text-align:right;
+        }
+    }
+    td {
+        background-color:#eee;    
+    }
+    th {
+        background-color:#009;
+        color:#fff;
+    }
+}
+
+.zigzag {
+    border-collapse:separate;
+    border-spacing:.25em 1em;
+    tbody tr:nth-child(odd) {
+        transform:rotate(2deg);
+    }
+    thead tr,
+    tbody tr:nth-child(even) {
+        transform:rotate(-2deg);
+    }
+}
+
+.content {
+display: flex;
+justify-content: center;
+align-items: center;
+height: fit-content;
+}

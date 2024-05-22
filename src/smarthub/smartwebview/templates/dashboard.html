@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="content">
+    <table class="zigzag">
+        <thead>
+            <tr>
+                <th class="header">Device name</th>
+                <th class="header">Status</th>
+            </tr>
+        </thead>
+        <tbody id="devices-config">
+        </tbody>
+        
+    </table>
+    
+</div>
+<script type="text/javascript" src="{{url_for('static', filename='scripts/get_devices.js')}}"></script>
+{% endblock %}

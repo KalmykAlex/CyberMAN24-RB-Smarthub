@@ -1,0 +1,15 @@
+cmake_minimum_required (VERSION 3.4)
+
+if (${CMAKE_HOST_SYSTEM_NAME} STREQUAL "Windows")
+    set(CMAKE_CXX_COMPILER "g++")
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}")
+else()
+    set(CMAKE_CXX_COMPILER "g++")
+    set(CMAKE_CXX_STANDARD "11")
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}")
+endif()
+
+project (DVSA LANGUAGES CXX)
+file(GLOB SOURCES "src/*.cpp")
+include_directories(include)
+add_subdirectory (src)
